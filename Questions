@@ -139,3 +139,13 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 Solution: python minimum_room_needed.py
+
+Question - 14:
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string "([])[]({})", you should return true.
+
+Given the string "([)]" or "((()", you should return false.
+
+Solution: python valid_brackets.py
