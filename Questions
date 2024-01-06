@@ -157,3 +157,11 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
 Solution: python run_length_encoding.py
+
+Question - 16:
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
+
+Solution: python edit_distance_string.py
