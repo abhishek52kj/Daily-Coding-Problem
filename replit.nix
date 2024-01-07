@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.imagemagick6
     pkgs.    
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
