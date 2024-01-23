@@ -422,3 +422,9 @@ The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 
 Solution: python longest_length_absolute_directory_path.py
+
+Question - 34:
+
+Boggle is a game played on a 4 x 4 grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+Solution: python boggle_solver.py
