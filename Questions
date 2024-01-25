@@ -434,3 +434,11 @@ Question - 35:
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given [10, 7, 76, 415], you should return 77641510.
 
 Solution: python largest_integer_from_array.py
+
+Question - 36:
+
+Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
+
+For example, for the input [1, 2, 3, 10], you should return 7.
+
+Solution: python smallest_non_sum_array.py
