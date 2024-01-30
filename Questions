@@ -490,3 +490,11 @@ You are asked to play the following game. You and an opponent take turns choosin
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
 Solution: python max_coin_game.py
+
+Question - 41:
+
+In front of you is a row of N coins, with values v1, v1, ..., vn.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
+
+Solution: python max_weight_spanning_tree.py
