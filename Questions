@@ -498,3 +498,11 @@ In front of you is a row of N coins, with values v1, v1, ..., vn.
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
 Solution: python max_weight_spanning_tree.py
+
+Question - 42:
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
+
+Solution: python order_alphabet_from_dictionary.py
