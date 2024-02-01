@@ -506,3 +506,11 @@ You come across a dictionary of sorted words in a language you've never seen bef
 For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
 
 Solution: python order_alphabet_from_dictionary.py
+
+Question - 43:
+
+You are given a list of N points (x1, y1), (x2, y2), ..., (xN, yN) representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point 1 to point 2, point 2 to point 3, and so on, finally looping around to connect point N to point 1.
+
+Determine if a new point p lies inside this polygon. (If p is on the boundary of the polygon, you should return False).
+
+Solution: python point_inside_polygon.py
