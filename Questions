@@ -566,3 +566,9 @@ For example, 4 - 2 - 1 - 7 is a valid pattern, whereas 2 - 1 - 7 is not.
 Find the total number of valid unlock patterns of length N, where 1 <= N <= 9.
 
 Solution: python valid_lock_pattern.py
+
+Question - 48:
+
+Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of A -> B -> C, it should become A <- B <- C.
+
+Solution: python reverse_directed_graph.py
