@@ -647,3 +647,9 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 Do this in faster than O(N log N) time.
 
 Solution: python sparse_numbers.py
+
+Question - 58:
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+Solution: python maximum_xor.py
