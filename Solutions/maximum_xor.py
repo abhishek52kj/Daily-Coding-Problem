@@ -41,6 +41,5 @@ def find_maximum_xor(nums):
   return max_xor
 
 
-# Example usage:
-nums = [3, 10, 5, 25, 2, 8]
+nums = [36, 10, 5, 25, 2, 8]
 print(find_maximum_xor(nums))  # Output: 28
