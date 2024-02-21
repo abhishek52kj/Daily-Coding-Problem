@@ -5,33 +5,48 @@ class ListNode:
     self.next = next
 
 
-def rearrange(head):
-  dummy_head = ListNode(0, head)
-  low = dummy_head.next
-  high = low.next
+def rearrangeLinkedList(head):
+  if not head or not head.next:
+    return head
 
-  while high and high.next:
-    low.next = high.next
-    low = low.next
-    high.next = low.next
-    high = high.next
+  dummy = ListNode(0)
+  dummy.next = head
 
-  # Check if high is not None before connecting
-  if high:
-    high.next = low.next
-  low.next = None
+  prev = dummy
+  current = head
 
-  return dummy_head.next
+  while current and current.next:
+    if current.val > current.next.val:
+      current.val, current.next.val = current.next.val, current.val
+    if current.val < prev.val:
+      current.val, prev.val = prev.val, current.val
+    current = current.next.next
+    prev = prev.next.next
+
+  return dummy.next
 
 
-# Example usage (same as before)
+# Helper function to print the linked list
+def printLinkedList(head):
+  current = head
+  while current:
+    print(current.val, end=" -> ")
+    current = current.next
+  print("None")
+
+
+# Example usage:
+# Creating a linked list: 1 -> 2 -> 3 -> 4 -> 5
 head = ListNode(1)
 head.next = ListNode(2)
 head.next.next = ListNode(3)
 head.next.next.next = ListNode(4)
 head.next.next.next.next = ListNode(5)
 
-result = rearrange(head)
-while result:
-  print(result.val, end=" -> ")
-  result = result.next
+print("Original linked list:")
+printLinkedList(head)
+
+head = rearrangeLinkedList(head)
+
+print("Linked list after rearranging:")
+printLinkedList(head)
