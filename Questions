@@ -936,3 +936,11 @@ Given a sorted list of integers of length N, determine if an element x is in the
 Do this in O(log N) time.
 
 Solution: python restricted_search.py
+
+Question - 81:
+
+Write a function, throw_dice(N, faces, total), that determines how many ways it is possible to throw N dice with some number of faces each to get a specific total.
+
+For example, throw_dice(3, 6, 7) should equal 15.
+
+Solution: python ways_of_dice_throw.py
