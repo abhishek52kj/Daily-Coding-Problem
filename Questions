@@ -962,3 +962,9 @@ Don't use eval or a similar built-in parser.
 For example, given '-1 + (2 + 3)', you should return 4.
 
 Solution: python evaluate_math_exp.py
+
+Question - 84:
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return 5, since the longest common subsequence is "eieio".
+
+Solution: python longest_common_subsequence.py
