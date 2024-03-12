@@ -22,6 +22,5 @@ def restore_ip_addresses(s):
   return result
 
 
-# Test the function
 input_str = "2542540123"
 print(restore_ip_addresses(input_str))
