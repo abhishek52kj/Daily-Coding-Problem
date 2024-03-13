@@ -993,3 +993,13 @@ As an example, the fourth term is 1211, since the third term consists of one 2 a
 Given an integer N, print the Nth term of this sequence.
 
 Solution: python nth_look_and_say.py
+
+Question - 87:
+
+Implement an efficient string matching algorithm.
+
+That is, given a string of length N and a pattern of length k, write a program that searches for the pattern in the string with less than O(N * k) worst-case time complexity.
+
+If the pattern is found, return the start index of its location. If not, return False.
+
+Solution: python string_matching.py
