@@ -971,6 +971,16 @@ Solution: python longest_common_subsequence.py
 
 Question - 85:
 
+Given a string of digits, generate all possible valid IP address combinations.
+
+IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers between 0 and 255. Zero-prefixed numbers, such as 01 and 065, are not allowed, except for 0 itself.
+
+For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
+
+Solution: python valid_ip_addresses.py
+
+Question - 86:
+
 The "look and say" sequence is defined as follows: beginning with the term 1, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
 
 1
