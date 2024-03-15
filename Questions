@@ -1024,3 +1024,11 @@ Visually, this can be represented as follows.
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
 Solution: python valid_utf-8_encoding.py
+
+Question - 89:
+
+Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
+
+For example, given the intervals [(1, 4), (4, 5), (7, 9), (9, 12)], you should return [4, 9].
+
+Solution: python stab_intervals.py
