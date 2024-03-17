@@ -1049,3 +1049,9 @@ Each student can be placed in a friend group, which can be defined as the transi
 Given a friendship list such as the one above, determine the number of friend groups in the class.
 
 Solution: python friend_groups.py
+
+Question - 91:
+
+Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return [0, 7].
+
+Solution: python pattern_occurrences.py
